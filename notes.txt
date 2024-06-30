@@ -1,3 +1,6 @@
+# Source
+https://www.mostlypython.com/django-from-first-principles/
+
 # Go to project folfer
 cd .\DjangoFromSingleFIleProject
 
