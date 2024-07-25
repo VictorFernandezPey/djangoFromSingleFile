@@ -45,6 +45,16 @@ application = WSGIHandler()
 if __name__ == "__main__":
     execute_from_command_line()
 
-# Run the  project
-python blogmaker_lite.py runserver
+# Run the project
+python manage.py runserver
+
+# Generates a migration file for a specific app in your project
+python manage.py makemigrations blogs
+
+# Migrate the migration file to the database
+python manage.py migrate
+
+# Create a superuser for Django project
+python manage.py createsuperuser
+victor / Adm1n2008.
 
