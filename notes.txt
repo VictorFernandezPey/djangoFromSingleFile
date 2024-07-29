@@ -61,3 +61,8 @@ victor / Adm1n2008.
 # Terminal-based way to explore your data
 python manage.py shell
 
+# If "STATIC_ROOT" variable is set, runnig this command in Django will copy all custom static files from folders in "STATICFILES_DIRS" variable to "staticfiles/" folder
+# When "staticfiles/" folder does not exist yet, Django create it. In addition it creates a folder called "admin" and subfolders for css, img and js by default
+# NOTE: You shouldn't store any of your own static files in the directory that matches your STATIC_ROOT setting. If you do, Django will dump a bunch of other static files into that same directory, and things will get quite confusing.
+python manage.py collectstatic
+
