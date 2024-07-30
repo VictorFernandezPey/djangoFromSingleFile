@@ -66,3 +66,6 @@ python manage.py shell
 # NOTE: You shouldn't store any of your own static files in the directory that matches your STATIC_ROOT setting. If you do, Django will dump a bunch of other static files into that same directory, and things will get quite confusing.
 python manage.py collectstatic
 
+# Delete all data from database without affecting the structure of the database
+python manage.py flush
+
