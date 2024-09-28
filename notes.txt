@@ -69,3 +69,6 @@ python manage.py collectstatic
 # Delete all data from database without affecting the structure of the database
 python manage.py flush
 
+Process for building a page in a standard Django project: define a URL pattern for the page, write a view, and write a template.
+
+
