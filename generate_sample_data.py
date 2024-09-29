@@ -6,7 +6,7 @@ import django
 from django.core.management import call_command
 
 # Load settings.
-os.environ["DJANGO_SETTINGS_MODULE"] = "settings"
+os.environ["DJANGO_SETTINGS_MODULE"] = "blogmaker_lite.settings"
 django.setup()
 
 # Flush current data.
